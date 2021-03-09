@@ -11,8 +11,13 @@ export default makeStyles((theme) => ({
       marginLeft: drawerWidth,
     },
   },
+  about: {
+    fontSize: 16,
+    textDecoration: 'underline',
+    fontFamily: 'Shippori Mincho B1, seri',
+  },
   title: {
-    flexGrow: 1,
+    marginRight: 30,
     alignItems: 'center',
     display: 'flex',
     textDecoration: 'none',

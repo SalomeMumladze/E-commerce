@@ -37,6 +37,9 @@ const PrimarySearchAppBar = ({ totalItems }) => {
           <Typography component={Link} to="/" variant="h6" className={classes.title} color="inherit">
             <img src={logo} alt="commerce" height="65px" className={classes.image} /> Commerce
           </Typography>
+           <Typography component={Link} to="/AboutUs" className={classes.about} color="inherit">
+            About us
+          </Typography>
           <div className={classes.grow} />
           {location.pathname === '/' && (
           <div className={classes.button}>
@@ -50,7 +53,6 @@ const PrimarySearchAppBar = ({ totalItems }) => {
         </Toolbar>
       </AppBar>
       {renderMobileMenu}
-      <img src="public/image.jpg" />
     </>
   );
 };

@@ -6,6 +6,7 @@ export default makeStyles(() => ({
     maxWidth: '100%',
     width: '250px',
     height: '284px',
+    boxShadow: '5px 5px 10px 2px rgb(0 0 0 /20%)',
   },
   media: {
     height: 0,
